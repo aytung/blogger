@@ -15,6 +15,7 @@ class ArticlesController < ApplicationController
 		@article = Article.new
 	end
 
+
 	def create
 		# @article = Article.new(
 		# 	title: params[:article][:title],
